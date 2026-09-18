@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/banner.svg" alt="Clean, Speed Up and Optimize Windows" width="100%">
+<img src="banner.svg" alt="Clean, Speed Up and Optimize Windows" width="100%">
 
 # 🧹 Windows Cleanup & Speed-Up Guide
 
