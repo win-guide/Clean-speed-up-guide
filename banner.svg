@@ -1,0 +1,40 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="50%" stop-color="#13294b"/>
+      <stop offset="100%" stop-color="#0a3d62"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00adef"/>
+      <stop offset="50%" stop-color="#00c46a"/>
+      <stop offset="100%" stop-color="#7cbb00"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+
+  <!-- window chrome -->
+  <rect x="40" y="40" width="1120" height="220" rx="14" fill="#0c1622" stroke="#274158" stroke-width="1.5"/>
+  <rect x="40" y="40" width="1120" height="38" rx="14" fill="#16233a"/>
+  <circle cx="66" cy="59" r="7" fill="#ff5f56"/>
+  <circle cx="90" cy="59" r="7" fill="#ffbd2e"/>
+  <circle cx="114" cy="59" r="7" fill="#27c93f"/>
+  <text x="600" y="64" text-anchor="middle" fill="#7b93ab" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="14">PowerShell — optimize-windows.ps1 — Administrator</text>
+
+  <!-- terminal body -->
+  <text x="70" y="120" fill="#00c46a" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="20">PS C:\&gt; .\clean-and-speed-up.ps1</text>
+  <text x="70" y="150" fill="#8aa3ba" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="16">→ Running Disk Cleanup...      [OK]</text>
+  <text x="70" y="175" fill="#8aa3ba" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="16">→ Trimming startup apps...     [OK]</text>
+  <text x="70" y="200" fill="#8aa3ba" font-family="Consolas, 'SF Mono', Menlo, monospace" font-size="16">→ Optimizing performance...    [OK]</text>
+
+  <!-- Windows-style 4-pane logo -->
+  <g transform="translate(1000,150)">
+    <rect x="-46" y="-46" width="42" height="42" fill="#00adef"/>
+    <rect x="4" y="-46" width="42" height="42" fill="#00c46a"/>
+    <rect x="-46" y="4" width="42" height="42" fill="#ffb900"/>
+    <rect x="4" y="4" width="42" height="42" fill="#f25022"/>
+  </g>
+
+  <text x="500" y="245" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-weight="700" font-size="30" fill="url(#glow)">Clean · Speed Up · Optimize Windows</text>
+</svg>
